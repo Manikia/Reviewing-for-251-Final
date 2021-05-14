@@ -4,12 +4,18 @@
 #include <time.h>
 #include <stdio.h>
 
-void main()
+void magicNum();
+int main(void)
 {
     //insert a number form 1 - 10 inclusive
     //we will add, sub, divide, multiply
     //ask guest to guess the number being summed with
+    magicNum();
+    
+}
 
+void magicNum()
+{
     int userinput;
     int magicNumber = 5;
 
